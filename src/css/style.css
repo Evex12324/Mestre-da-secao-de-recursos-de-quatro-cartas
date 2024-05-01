@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    display: flex;
+    height: 140vh;
+    background-color: #FAFAFA;
+    font-family: "Poppins", sans-serif;
+}
+
+main {
+    margin: auto;
+    color: #97969B;
+}
+
+.inicio {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.inicio h1 {
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.inicio h1 strong {
+    font-weight: 600;
+}
+
+section {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.container {
+    background-color: white;
+    max-width: 250px;
+    padding: 25px;
+    box-shadow: 1px 7px 17px #cccad2;
+    border-top: solid 3px blue;
+    border-radius: 5px;
+    text-align: end;
+}
+
+.container h3, .container p {
+    text-align: start;
+}
+
+.container img {
+    margin-top: 20px;
+    width: 25%;
+}
+
+.container.A {
+    border-top: solid 3px #47d7ff;
+}
+
+.coluna .container.A{
+    margin-bottom: 25px;
+    border-top: solid 3px #d12727;
+}
+
+.coluna .container.B{
+    border-top: solid 3px #ffb847;
+}
+
+.container.B {
+    border-top: solid 3px #4791ff;
+}
+
+strong, h3 {
+    color: black;
+}

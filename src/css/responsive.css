@@ -1,0 +1,13 @@
+@media (max-width: 1000px) {
+    body {
+        height: 200vh;
+    }
+
+    main {
+        padding: 0 20px;
+    }
+
+    section {
+        flex-direction: column;
+    }
+}
